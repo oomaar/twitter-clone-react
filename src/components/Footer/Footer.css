@@ -1,0 +1,14 @@
+.footer__smScreen {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer__smScreen {
+        display: flex;
+        flex: 0.1;
+        justify-content: space-between;
+        margin-top: auto;
+        font-size: 24px;
+        transition: 1s;
+    }
+}

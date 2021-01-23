@@ -1,0 +1,104 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
+  background-color: #fff;
+  scrollbar-width: none; /* Hides Scroll bar for IE and Edge */
+  -ms-overflow-style: none; /* Hides Scroll bar for FireFox */
+  transition: 1s;
+}
+
+.feed::-webkit-scrollbar {
+  /* Hides Scroll bar for Chrome, Safari and Opera */
+  display: none;
+}
+
+.feed__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+
+.feed__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.feed__darkBtn {
+  margin-left: auto;
+  background-color: var(--twitter-color);
+  border: none;
+  color: #fff;
+  font-weight: 900;
+  text-transform: inherit;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.feed__darkBtn:hover,
+.feed__darkBtn:focus {
+  transform: scale(1.1);
+}
+
+.feed__darkIcon {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+/* Dark Mode Classes */
+.darkApp .feed {
+  border-right: 1px solid #192734;
+  background-color: var(--dark-twitter-background);
+  color: var(--dark-text);
+}
+
+.darkApp .feed__header {
+  background: var(--dark-twitter-background);
+  border: 1px solid #192734;
+}
+
+.darkApp .feed__darkBtn {
+  background-color: var(--dark-twitter-color);
+  transition: 0.5s;
+  transform: scale(1);
+  align-self: start;
+}
+
+@media only screen and (max-width: 600px) {
+  .feed {
+    margin-top: 10px;
+    padding: 0;
+    flex: 0.9;
+    transition: 1s;
+  }
+
+  .feed__darkBtn {
+    width: 65px;
+    height: 25px;
+    transition: 1s;
+  }
+
+  .feed__darkIcon {
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+    transition: 1s;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* For ipad: */
+  .feed {
+    flex: 0.9;
+    transition: 1s;
+  }
+}

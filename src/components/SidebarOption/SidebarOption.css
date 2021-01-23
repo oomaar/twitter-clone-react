@@ -1,0 +1,53 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+  transition: 0;
+}
+
+.sidebarOption > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0;
+}
+
+.sidebarOption__active {
+  color: var(--twitter-color);
+  transition: 0;
+}
+
+/* Dark Mode Classes */
+.darkApp .sidebarOption {
+  color: var(--dark-text);
+  background-color: var(--dark-twitter-background);
+}
+
+.darkApp .sidebarOption:hover {
+  background-color: var(--dark-hover-color);
+  color: var(--dark-twitter-color);
+  transition: 0;
+}
+
+.darkApp .sidebarOption__active {
+  color: var(--dark-twitter-color);
+  transition: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  /* For tablets: */
+  .sidebarOption > h2 {
+    display: none;
+  }
+}

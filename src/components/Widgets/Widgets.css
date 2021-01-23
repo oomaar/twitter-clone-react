@@ -1,0 +1,73 @@
+.widgets {
+  flex: 0.3;
+  transition: 1s;
+}
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  transition: 1s;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  color: var(--dark-text);
+  font-size: 20px;
+  transition: 1s;
+}
+
+.widgets__searchIcon {
+  color: #808080;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.widgets__input > input:focus {
+  outline: none;
+}
+
+/* Dark Mode Classes */
+.darkApp .widgets {
+  background-color: var(--dark-twitter-background);
+  transition: 1s;
+}
+
+.darkApp .widgets__input {
+  background-color: var(--dark-border-color);
+  transition: 1s;
+}
+
+.darkApp .widgets__input > input {
+  background-color: var(--dark-border-color);
+  transition: 1s;
+}
+
+.darkApp .widgets__widgetContainer {
+  background-color: var(--dark-border-color);
+  transition: 1s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .widgets {
+    display: none;
+    transition: 1s;
+  }
+}
