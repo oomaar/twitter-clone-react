@@ -25,3 +25,5 @@ yarn-error.log*
 comments
 lib
 firebase-debug.log
+.github
+.firebase
