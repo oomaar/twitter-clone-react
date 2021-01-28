@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Description
+This is a single page application, Twitter homepage Clone.
+This was not just following a tutorial on youtube!
+This was Built using ReactJS, Firebase, CSS and JSX.
+Darkmode functionality, Live Tweeting, Responsive To All View Ports.
