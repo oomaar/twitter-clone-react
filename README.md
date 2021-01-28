@@ -1,6 +1,7 @@
 ### Description
 This is a single page application, Twitter homepage Clone.
 This was not just following a tutorial on youtube!
+I CODED THIS ON MY OWN WITH SOME HELP FROM A TUTORIAL.
 This was Built using ReactJS, Firebase, CSS and JSX.
 Darkmode functionality, Live Tweeting, Responsive To All View Ports.
 
