@@ -1,3 +1,5 @@
 .homescreen {
     display: flex;
+    background: #000;
+    margin: 0;
 }
