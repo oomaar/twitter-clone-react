@@ -1,3 +1,7 @@
+### Description
+This project a twitter clone, was Built using ReactJS, Firebase, CSS and React Router Dom.
+Darkmode functionality, Live Tweeting, Responsive To All View Ports.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
