@@ -5,7 +5,7 @@
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .Twitter {
@@ -31,7 +31,7 @@
 .darkApp .sidebar {
   background-color: var(--dark-twitter-background);
   border-right: 1px solid var(--dark-border-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .darkApp .Twitter {
@@ -45,7 +45,7 @@
 @media only screen and (max-width: 600px) {
   .sidebar {
     display: none;
-    transition: 1s;
+    transition: 0.5s;
   }
 }
 
@@ -56,12 +56,12 @@
     padding: 0;
     align-items: center;
     width: 100%;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   .sidebar__tweet {
     display: none !important;
     width: 20px !important;
-    transition: 1s;
+    transition: 0.5s;
   }
 }

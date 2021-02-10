@@ -23,7 +23,7 @@ body {
     --dark-twitter-color: #eea220;
     --dark-border-color: #192739;
     --dark-hover-color: #2d2f2a;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* Responsive To ipad and medium browser Windows (max-width: 1280px) */

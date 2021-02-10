@@ -1,7 +1,7 @@
 .tweetBox {
   padding-bottom: 10px;
   border-bottom: 8px solid var(--twitter-background);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .tweetBox > form {
@@ -76,7 +76,7 @@
 
 .darkApp .tweetBox {
   border-bottom: 8px solid var(--dark-border-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .darkApp .tweetBox__input > textarea {

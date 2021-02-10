@@ -6,7 +6,7 @@
   background-color: #fff;
   scrollbar-width: none; /* Hides Scroll bar for IE and Edge */
   -ms-overflow-style: none; /* Hides Scroll bar for FireFox */
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .feed::-webkit-scrollbar {
@@ -78,20 +78,20 @@
     margin-top: 10px;
     padding: 0;
     flex: 0.9;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   .feed__darkBtn {
     width: 65px;
     height: 25px;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   .feed__darkIcon {
     fill: #fff;
     width: 25px;
     height: 25px;
-    transition: 1s;
+    transition: 0.5s;
   }
 }
 
@@ -99,6 +99,6 @@
   /* For ipad: */
   .feed {
     flex: 0.9;
-    transition: 1s;
+    transition: 0.5s;
   }
 }

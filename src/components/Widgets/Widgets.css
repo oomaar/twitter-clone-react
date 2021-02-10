@@ -1,6 +1,6 @@
 .widgets {
   flex: 0.3;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .widgets__input {
@@ -11,7 +11,7 @@
   border-radius: 20px;
   margin-top: 10px;
   margin-left: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .widgets__input > input {
@@ -19,7 +19,7 @@
   background-color: var(--twitter-background);
   color: var(--dark-text);
   font-size: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .widgets__searchIcon {
@@ -32,7 +32,7 @@
   padding: 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .widgets__widgetContainer > h2 {
@@ -47,27 +47,27 @@
 /* Dark Mode Classes */
 .darkApp .widgets {
   background-color: var(--dark-twitter-background);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .darkApp .widgets__input {
   background-color: var(--dark-border-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .darkApp .widgets__input > input {
   background-color: var(--dark-border-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .darkApp .widgets__widgetContainer {
   background-color: var(--dark-border-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 1000px) {
   .widgets {
     display: none;
-    transition: 1s;
+    transition: 0.5s;
   }
 }
