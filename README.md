@@ -1,6 +1,5 @@
 ### Description
-This is a single page application, Twitter homepage Clone.
-This was Built using ReactJS, Firebase, CSS and JSX.
+This project a twitter clone, was Built using ReactJS, Firebase, CSS and React Router Dom.
 Darkmode functionality, Live Tweeting, Responsive To All View Ports.
 
 # Getting Started with Create React App
