@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { TwitterBG } from '../components';
+import "./Home.css";
 
 const HomeScreen = () => {
     return (
-        <div>
-            I'm Twitter's Home Page
+        <div className="homescreen">
+            {/* TwitterBG */}
+            <TwitterBG />
+            {/* Feature */}
+
+            {/* Fotter */}
         </div>
     )
 }

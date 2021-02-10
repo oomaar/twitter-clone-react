@@ -1,0 +1,16 @@
+.twitterbg {
+    height: 97vh;
+    background: url("../../images/bg.png");
+    background-position: center;
+    background-size: cover;
+    flex: 0.54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.twitterbg_twitter {
+    color: #fff !important;
+    font-size: clamp(290px, 50vw, 400px) !important;
+}

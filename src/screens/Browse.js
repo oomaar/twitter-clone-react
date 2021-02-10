@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Feed, Footer, Sidebar, SmallBtn, Widgets } from '../components';
 import { GlobalDarkStyles } from '../GlobalDarkStyles';
+import "./Browse.css";
 
 export default function BrowseScreen() {
     const [darkMode, setDarkMode] = useState(false);
