@@ -3,3 +3,9 @@
     background: #000;
     margin: 0;
 }
+
+@media (max-width: 1000px) {
+    .homescreen {
+        flex-direction: column-reverse;
+    }
+}

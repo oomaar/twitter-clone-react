@@ -9,3 +9,4 @@ export { default as SmallBtn } from "./SmallBtn/SmallBtn";
 export { default as TwitterBG } from "./TwitterBG/TwitterBG";
 export { default as Banner } from "./Banner/Banner";
 export { default as Feature } from "./Feature/Feature";
+export { default as HappeningNow } from "./HappeningNow/HappeningNow";

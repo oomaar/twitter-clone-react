@@ -1,0 +1,10 @@
+.happeningnow {
+    flex: 0.46;
+}
+
+@media (max-width: 1000px) {
+    .happeningnow {
+        flex: 0.5;
+        /* margin-bottom: 150px; */
+    }
+}

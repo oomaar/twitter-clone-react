@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, TwitterBG } from '../components';
+import { HappeningNow, TwitterBG } from '../components';
 import "./Home.css";
 
 const HomeScreen = () => {
@@ -8,9 +8,9 @@ const HomeScreen = () => {
             {/* TwitterBG */}
             <TwitterBG />
 
-            {/* topbar */}
-            <Banner />
+            {/* Banner */}
             {/* Feature */}
+            <HappeningNow />
 
             {/* Fotter */}
         </div>

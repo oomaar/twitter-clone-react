@@ -1,0 +1,111 @@
+.feature {
+    max-width: 600px;
+    margin: 90px auto 0 30px;
+}
+
+.feature__twitter {
+    color: #fff !important;
+    font-size: 60px !important;
+    margin-top: 50px;
+}
+
+.feature__title {
+    color: #fff;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.feature__text {
+    color: #fff;
+    font-size: 30px;
+}
+
+.feature__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px auto 0 0;
+}
+
+.banner__signup__button {
+    color: #fff !important;
+    font-size: 15px;
+    background-color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    width: 60% !important;
+    margin-bottom: 10px !important;
+}
+
+.banner__login__button {
+    color: var(--twitter-color);
+    font-size: 15px;
+    border: 1px solid var(--twitter-color) !important;
+    color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    width: 60% !important;
+    margin-top: 10px !important;
+}
+
+@media (max-width: 1000px) {
+    .feature {
+        margin: auto;
+    }
+
+    .feature__title {
+        margin-bottom: 10px;
+        width: 400px;
+    }
+
+    .feature__text  {
+        margin-bottom: 10px;
+    }
+
+    .feature__buttons {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .banner__signup__button {
+        align-self: baseline !important;
+        width: 45% !important;
+    }
+    
+    .banner__login__button {
+        align-self: baseline !important;
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .feature__title{
+        font-size: 45px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .feature__text {
+        margin-left: 20px;
+    }
+
+    .feature__buttons {
+        flex-direction: column;
+        width: 80%;
+        margin: 60px auto 10px;
+    }
+
+    .banner__signup__button {
+        width: 100% !important;
+    }
+
+    .banner__login__button {
+        width: 100% !important;
+    }
+}
+
