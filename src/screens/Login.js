@@ -11,8 +11,22 @@ const Login = () => {
                     <TwitterIcon className="Twitter feature__twitter" />
                     <h2 className="login__title">Log in to Twitter</h2>
                 </div>
-                <input type="text" placeholder="Phone, email or username" className="login__input" />
-                <input type="password" placeholder="Password" className="login__input" />
+
+                <div className="login__input__container">
+                    <input type="text" className="login__input" />
+                    <label className="login__input__label">
+                        <span className="login__label__span">Phone, email or username</span>
+                    </label>
+                </div>
+
+                <div className="login__input__container">
+                    <input type="password" className="login__input" />
+                    <label className="login__input__label">
+                        <span className="login__label__span">Password</span>
+                    </label>
+                </div>
+
+                {/* <input type="password" placeholder="Password" className="login__input" /> */}
                 <Button variant="outlined" className="login__button">Log in</Button>
                 <div className="login__links">
                     <a href="#" className="login__link">Forgot password?</a>
