@@ -1,0 +1,14 @@
+.signup__bg {
+    pointer-events: none;
+}
+
+.signup__container {
+    border: 8px solid red;
+    position: absolute;
+    display: flex;
+    height: 100vmin;
+    top: 0;
+    font-size: 200px;
+    width: 198vmin;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+}
