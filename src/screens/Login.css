@@ -1,0 +1,65 @@
+.login {
+    background-color: #000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.login__feature {
+    margin-right: auto;
+    padding: 20px;
+}
+
+.login__title {
+    color: #fff;
+    font-size: 30px;
+}
+
+.login__input {
+    background: transparent;
+    width: 90%;
+    height: 55px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.login__button {
+    color: #fff !important;
+    font-size: 15px;
+    background-color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    width: 90% !important;
+    margin: 20px 0 20px 0 !important;
+}
+
+.login__links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.login__span {
+    color: var(--twitter-color);
+    margin: 0 5px;
+}
+
+.login__link {
+    color: var(--twitter-color);
+    text-decoration: none;
+}
