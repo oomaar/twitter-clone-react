@@ -1,11 +1,104 @@
+/* The Main div (HomeScreen) */
 .homescreen {
-    display: flex;
     background: #000;
+    color: #fff;
+    display: flex;
+    height: 100vh;
     margin: 0;
+    width: 100%;
+}
+
+/* Left side: hte bg and twitter logo */
+.homescreen__bg {
+    background: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex: 0.5;
+}
+
+.homescreen__bgIcon {
+    font-size: clamp(290px, 50vw, 400px) !important;
+    margin: auto !important;
+}
+/* Left side: hte bg and twitter logo */
+
+/* Right Side's banner: 2 inputs and loginbtn */
+.homescreen__feature {
+    flex: 0.5;
+}
+
+.banner {
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+.banner__input__container {
+    margin: 10px;
+    position: relative;
+}
+
+.banner__input {
+    background: transparent;
+    border: 0;
+    color: gray;
+    font-size: 16px;
+    height: 65px;
+    padding-top: 30px;
+    outline: 0;
+    width: 200px;
+}
+
+.banner__input__label {
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 5px;
+    left: 0px;
+    width: 200px;
+    height: 65px;
+    color: gray;
+    pointer-events: none;
+}
+
+.banner__label__span {
+    position: absolute;
+    top: 20%;
+    left: 7px;
+    transition: all 0.1s ease;
+}
+
+.banner__input__container .banner__input:focus {
+    border: 2px solid var(--twitter-color);
+    border-radius: 5px;
+}
+
+.banner__input__container .banner__input:focus + .banner__input__label .banner__label__span {
+    transform: translateY(-70%);
+    color: var(--twitter-color);
+    font-size: 12px;
+    left: 5px;
+    top: 20%;
+}
+
+.banner__button {
+    background: transparent !important;
+    color: var(--twitter-color) !important;
+    border: 1px solid var(--twitter-color) !important;
+    border-radius: 30px !important;
+    width: 120px !important;
+    height: 50px !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+    /* margin: 50px !important; */
 }
 
 @media (max-width: 1000px) {
     .homescreen {
         flex-direction: column-reverse;
+    }
+
+    .banner {
+        display: none;
     }
 }

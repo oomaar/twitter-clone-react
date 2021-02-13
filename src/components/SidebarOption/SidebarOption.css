@@ -12,20 +12,17 @@
 }
 
 .sidebarOption > .MuiSvgIcon-root {
-  padding: 20px;
-  transition: 0;
+  margin: 20px;
 }
 
 .sidebarOption > h2 {
   font-weight: 800;
   font-size: 20px;
   margin-right: 20px;
-  transition: 0;
 }
 
 .sidebarOption__active {
   color: var(--twitter-color);
-  transition: 0;
 }
 
 /* Dark Mode Classes */
@@ -37,12 +34,10 @@
 .darkApp .sidebarOption:hover {
   background-color: var(--dark-hover-color);
   color: var(--dark-twitter-color);
-  transition: 0;
 }
 
 .darkApp .sidebarOption__active {
   color: var(--dark-twitter-color);
-  transition: 0;
 }
 
 @media only screen and (max-width: 1280px) {

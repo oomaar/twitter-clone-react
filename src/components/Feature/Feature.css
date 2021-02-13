@@ -1,115 +1,91 @@
 .feature {
-    max-width: 600px;
+    display: block;
+}
+
+.feature__brand {
     margin: 90px auto 0 30px;
+    max-width: 700px;
 }
 
 .feature__twitter {
     color: #fff !important;
     font-size: 60px !important;
+    font-size: clamp(35px, 4vw, 60px) !important;
     margin: 50px auto 20px 0;
 }
 
 .feature__title {
     color: #fff;
-    font-size: 65px;
+    font-size: clamp(45px, 10vw, 65px);
     margin-bottom: 30px;
+    line-height: 1.1;
 }
 
 .feature__text {
     color: #fff;
-    font-size: 30px;
+    font-size: clamp(20px, 5vw, 30px);
 }
 
 .feature__buttons {
     display: flex;
     flex-direction: column;
-    width: 60%;
     margin: 80px auto 0 0;
-}
-
-.feature__button {
-    color: #fff !important;
-    font-size: 15px !important;
-    background-color: var(--twitter-color) !important;
-    font-weight: 900 !important;
-    text-transform: inherit !important;
-    border-radius: 30px !important;
-    height: 50px !important;
-    width: 100% !important;
-    margin-bottom: 10px !important;
-    border: 0 !important;
-}
-
-.feature__login__button {
-    width: 100% !important;
-    background: transparent !important;
-    color: var(--twitter-color) !important;
-    border: 1px solid var(--twitter-color) !important;
+    width: 60%;
 }
 
 .feature__link {
-    width: 100%;
+    align-items: center;
+    background-color: var(--twitter-color);
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    justify-content: center;
+    margin: 0 0 20px 20px;
     text-align: center;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    width: 70%;
+}
+
+.feature__login__link {
+    background: transparent;
+    border: 1px solid var(--twitter-color);
+    color: var(--twitter-color);
 }
 
 @media (max-width: 1000px) {
-    .feature {
+    .feature__brand {
         margin: auto;
-    }
-
-    .feature__title {
-        margin-bottom: 10px;
-        width: 400px;
-    }
-
-    .feature__text  {
-        margin-bottom: 10px;
+        width: 40%;
     }
 
     .feature__buttons {
         flex-direction: row;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+        margin: 50px auto;
     }
 
     .feature__link {
-        width: 90%;
-        margin: 10px;
+        margin: 5px 5px;
     }
 }
 
 @media (max-width: 500px) {
-    .feature__title{
-        font-size: 45px;
-        margin-bottom: 30px;
-        margin-left: 20px;
-    }
-
-    .feature__twitter {
-        margin-left: 20px;
-    }
-
-    .feature__text {
-        margin-left: 20px;
-    }
-
-    .feature__buttons {
-        flex-direction: column;
+    .feature__brand {
         width: 80%;
-        margin: 60px auto 10px;
-    }
-
-    .feature__signup__button {
-        width: 100% !important;
     }
     
-    .feature__login__button {
-        width: 100% !important;
+    .feature__buttons {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature__link {
+        margin-bottom: 10px;
+        width: 90%;
     }
 }
 
