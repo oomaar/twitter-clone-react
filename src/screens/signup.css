@@ -8,10 +8,6 @@
     height: 100vh;
     width: 100vw;
     top: 0;
-    font-size: 200px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1));
-    /* background: linear-gradient(to right, #80000000, #80242d34, #80bdc6cd); */
-    /* 242d34 on black */
-    /*  */
-    /* bdc6cd on white */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
 }
+
